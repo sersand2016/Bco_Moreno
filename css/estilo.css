@@ -1,0 +1,195 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+.titulo-estilizado {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.imgCarousel {
+  height: 350px;
+  object-fit: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  background-color: #24303c;
+  width: 350px;
+  padding: 30px;
+  margin: auto;
+  margin-top: px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.control {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #1f53c5;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.control:focus {
+  height: 60px;
+}
+
+.boton {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(to left top, #005aa7, #fffde4);
+  font-size: 20px;
+}
+.boton:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+.boton:active {
+  transform: translateY(3px);
+}
+
+.logo {
+  width: 150px;
+}
+
+.colorFondo {
+  background-color: #8ec7f0;
+}
+
+.btnPropio {
+  background-color: #b2b1cf;
+}
+.btnPropio:hover {
+  background-color: #616163;
+}
+
+.imagenGaleria {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  filter: grayscale(0%);
+  transform: scale(0.93);
+}
+
+@media (max-width: 768px) {
+  .galeria {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+}
+
+
+/* .texto-estilizado {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin: 10px 70px;
+}
+ */
+
+ .texto-estilizado {
+  font-size: 16px; /* Tamaño de fuente base más pequeño */
+  line-height: 1.4; /* Espaciado entre líneas más ajustado */
+  color: #333; /* Color del texto */
+  text-align: justify; /* Alineación del texto justificada */
+  letter-spacing: 0.5px; /* Espaciado entre letras */
+  margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontal */
+  max-width: 90%; /* Ancho máximo del párrafo */
+  padding: 0 20px; /* Añade padding a los lados para separar el texto del borde */
+  text-indent: 20px; /* Sangría en la primera línea del párrafo */
+}
+
+@media only screen and (min-width: 768px) {
+  .texto-estilizado {
+    font-size: 18px; /* Tamaño de fuente ligeramente mayor para pantallas más grandes */
+    margin: 30px auto; /* Margen superior e inferior aumentado */
+    max-width: 80%; /* Ancho máximo del párrafo reducido para evitar que sea demasiado largo */
+  }
+}
+
+
+.video-container {
+  max-width: 580px;
+  margin: 0 auto;
+}
+.video-container iframe {
+  width: 100%;
+  height: 360px;
+}
+@media (max-width: 767px) {
+  .video-container {
+    max-width: 90%;
+  }
+  .video-container iframe {
+    height: 240px;
+  }
+}
+
+/*  */
+
+/* Estilo para los elementos de la barra de navegación */
+.navbar-nav {
+  margin-left: auto; /* Empuja los elementos hacia la derecha */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px; /* Agrega algo de espacio entre los elementos */
+}
+
+.navbar-nav .nav-link {
+  padding: 12px 18px; /* Aumenta el tamaño de la letra y el espacio alrededor del texto */
+  font-size: 18px; /* Ajusta el tamaño de la letra */
+}
+
+/* Cambiar el color del enlace activo */
+.navbar-nav .nav-link.active {
+  color: #0066cc; /* Cambia el color del enlace activo a azul */
+}
+
+
+.imagen-estilizada {
+  display: block; /* Hace que la imagen sea un bloque para que se apliquen márgenes correctamente */
+  margin: 20px auto; /* Margen de 20px en la parte superior e inferior y centrado horizontalmente */
+  max-width: 90%; /* Asegura que la imagen no se extienda más allá del 90% del ancho de su contenedor */
+}
+
+@media only screen and (min-width: 768px) {
+  .imagen-estilizada {
+    margin: 30px auto; /* Aumenta el margen en pantallas más grandes */
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
