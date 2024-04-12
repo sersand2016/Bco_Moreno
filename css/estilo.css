@@ -1,9 +1,16 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+
+
+
 .titulo-estilizado {
   font-weight: bold;
   letter-spacing: 2px;
   margin-top: 50px;
   margin-bottom: 20px;
+}
+
+.titulo-estilizado h2 {
+  padding: 0 10px; /* Ajusta el padding según sea necesario */
 }
 
 main {
@@ -191,5 +198,9 @@ body {
     margin: 30px auto; /* Aumenta el margen en pantallas más grandes */
   }
 }
+
+
+
+
 
 /*# sourceMappingURL=estilo.css.map */
