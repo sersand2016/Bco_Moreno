@@ -24,48 +24,37 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <img class="logo" src="/Bco_Moreno/img/logo.png" alt="logo de la empresa">
-
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/Bco_Moreno/index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" href="html/productos.html">Productos</a> -->
-            <a class="nav-link">Acerca de Nosotros</a>
+            <a class="nav-link" href="Nosotros.html">Acerca de Nosotros</a>
           </li>
 
           <li class="nav-item">
-            <!-- <a class="nav-link" href="html/servicios.html">Servicios</a> -->
-            <a class="nav-link">Líneas de Financiamiento</a>
+            <a class="nav-link " href="LineasFinanciamiento.html">Líneas de Financiamiento</a>
           </li>
 
           <li class="nav-item">
-            <!-- <a class="nav-link" href="html/envios.html">Envios</a> -->
-            <a class="nav-link">Unidades Productivas Beneficiadas</a>
+            <a class="nav-link" href="UPB.html">Unidades Productivas Beneficiadas</a>
           </li>
 
           <li class="nav-item">
-            <!-- <a class="nav-link" href="html/envios.html">Envios</a> -->
-            <a class="nav-link">Recursos</a>
+            <a class="nav-link" href="Recursos.html">Recursos</a>
           </li>
 
-
-
           <li class="nav-item">
-            <!-- <a class="nav-link" href="html/contacto.html">Contacto</a> -->
             <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
         </ul>
-        <!-- <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btnPropio" type="submit">Buscar</button>
-            </form> -->
       </div>
     </div>
   </header>
@@ -76,8 +65,11 @@
 
     <h2 class="titulo-estilizado">Contáctenos</h2>
 
-    <p class="texto-estilizado">¿Tienes preguntas o comentarios sobre nuestros servicios? ¡Estamos aquí para ayudarte!
-      No dudes en ponerte en contacto con nosotros utilizando el formulario a continuación. </p>
+    <p class="texto-estilizado">¿Listo para dar el primer paso hacia tu futuro emprendimiento? ¡Contáctanos! Estamos
+      aquí para ayudarte. Encuentra nuestra información de contacto, incluyendo dirección, números de teléfono y correo
+      electrónico. Además, puedes completar nuestro formulario en línea para ponernos en contacto contigo. Y si
+      necesitas encontrarnos en persona, también te proporcionamos un mapa con la ubicación de nuestras oficinas.
+      Queremos escuchar tu historia y trabajar juntos para hacer realidad tus sueños. </p>
 
 
     <!-- Formulario -->
@@ -88,6 +80,15 @@
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
+
+        <label for="requestType">Tipo de Solicitud:</label>
+        <select id="requestType" name="requestType" required>
+          <option value="Consulta">Consulta</option>
+          <option value="Capacitación">Capacitación</option>
+          <option value="Financiamiento">Financiamiento</option>
+          <option value="Formalización">Formalización</option>
+          <option value="Asistencia Técnica Integral">Asistencia Técnica Integral</option>
+        </select>
 
         <label for="message">Mensaje:</label>
         <textarea id="message" name="message" rows="4" required></textarea>

@@ -1,6 +1,14 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
 
 
+/*
+Test
+*/
+
+
+
+ /* Fin Test */
+
 
 .titulo-estilizado {
   font-weight: bold;
@@ -150,7 +158,7 @@ body {
   /* Ancho máximo del párrafo */
   padding: 0 20px;
   /* Añade padding a los lados para separar el texto del borde */
-  text-indent: 20px;
+  text-indent: 0px;
   /* Sangría en la primera línea del párrafo */
 }
 
@@ -250,7 +258,7 @@ label,
 input,
 textarea {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 100%;
   /* Aseguramos que los elementos ocupen todo el ancho */
 }
@@ -261,6 +269,11 @@ textarea {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+/* Aumentamos el margen inferior específicamente para el combo box */
+select {
+  margin-bottom: 30px; /* Aumentamos el margen inferior para el combo box */
 }
 
 button[type="submit"] {
@@ -289,6 +302,15 @@ button[type="submit"]:hover {
   }
 }
 
+/* Footer  */
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  margin-bottom: 80px; 
+} 
 
 
 
