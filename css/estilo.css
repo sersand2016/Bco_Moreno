@@ -312,6 +312,27 @@ footer {
   margin-bottom: 80px; 
 } 
 
+/* Maps  */
+
+.map-container {
+  text-align: center;
+  margin: 20px 0; /* Espacio superior e inferior */
+}
+
+.map-iframe {
+  width: 100%;
+  max-width: 600px; /* Ancho máximo del mapa */
+  height: 450px;
+  border: 0;
+  margin: 0 auto; /* Centra el mapa */
+}
+
+@media (max-width: 767px) {
+  .map-iframe {
+      height: 300px; /* Ajusta la altura en pantallas más pequeñas */
+  }
+}
+
 
 
 /*# sourceMappingURL=estilo.css.map */
